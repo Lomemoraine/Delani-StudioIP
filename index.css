@@ -1,0 +1,26 @@
+
+
+.firstSection{
+    background-image: url("./assets/backgrounds/h_img.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-top: 210px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: white;
+    
+}
+
+.firstSection p{
+    font-size: small;
+}
+    
+.mouse{
+    
+    object-position: center bottom;
+    
+}
+.about_us {
+    text-align: center;
+    line-height: 50px;
+}
