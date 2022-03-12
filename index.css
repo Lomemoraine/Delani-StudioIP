@@ -20,7 +20,20 @@
     object-position: center bottom;
     
 }
-.about_us {
+.about {
     text-align: center;
     line-height: 50px;
+}
+.serviceSection {
+    background-image: url("./assets/backgrounds/s_image.jpg");
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    line-height: 50px;
+}
+.rowStyle{
+    margin-left: 12px;
 }
