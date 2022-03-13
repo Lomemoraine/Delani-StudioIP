@@ -92,6 +92,9 @@ button{
     padding-bottom: 2%;
     font-size: small;
 }
-.image-overlay{
+.card-img-overlay h5{
     display: none;
+    color: #ffffff;
+    border: 2px solid white;
+    padding-bottom: 90px;
 }
