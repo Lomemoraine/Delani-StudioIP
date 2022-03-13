@@ -11,9 +11,21 @@ $(document).ready(function(){
 
 })
 $(document).ready(function(){
-    $(".work1 image").mouseover(function(){
-        console.log("Lorraine");
-        $("#text-overlay").fadeIn(fast);
+    var elements =[{port:"work1",hov:"worrk1"},
+                   {port:"work2",hov:"worrk2"},
+                   {port:"work3",hov:"worrk3"},
+                   {port:"work4",hov:"worrk4"},
+                   {port:"work5",hov:"worrk5"},
+                   {port:"work6",hov:"worrk6"},
+                   {port:"work7",hov:"worrk7"},
+                   {port:"work8",hov:"worrk8"}];
+elements.forEach(function(element){
+    $("#" + element.port).mouseover(function(){
+        $("#" +element.hov).show();
+    }).mouseout(function(){
+        $("#" + element.hov).hide();
     });
 })
+
+}); 
 
