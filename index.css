@@ -54,11 +54,23 @@ h2{
     background-color: transparent;
     color: white;
 }
-::placeholder { 
+input[type=text],input[type=email]{
+    background-color: transparent;
+    border: 1px white solid;
+}
+.form-control::placeholder{
     color: white;
-    opacity: 1; /* Firefox */
-  }
-  .footer{
+}
+#textMessage::placeholder{
+    color: white;
+}
+.form-bg button{
+    background-color:white;
+}
+.social-networks{
+    justify-content:space-between;
+}
+.footer{
     margin-top: 2%;
     text-align: center;
 }
