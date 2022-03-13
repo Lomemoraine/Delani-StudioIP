@@ -34,40 +34,15 @@
     padding-bottom: 50px;
     line-height: 50px;
 }
-.rowStyle{
-    margin-left: 12px;
-}
-.what-we-do {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 250px;
-    padding-right: 250px;
-}
-.what-icons {
+.whatWeDo{
     display: flex;
     justify-content: space-between;
 }
-.design-icon{
-    margin-left: 1%;
-}
-.what-we-do h1 {
-    text-align: center;
-    margin-bottom: 50px;
-}
-.design,
-.dev,
-.product {
-    text-align: center;
-    margin-left: 15px;
-    margin-right: 15px;
-    width: 30%;
-}
-.design-text {
+.textParagraph{
     display: none;
 }
-.dev-text {
-    display: none;
-}
-.product-text {
-    display: none;
+.gap-3 img{
+    width:100%;
+    height: 100%;
+    margin-bottom: 40px;
 }
