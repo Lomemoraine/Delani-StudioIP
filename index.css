@@ -64,12 +64,17 @@ input[type=text],input[type=email]{
 #textMessage::placeholder{
     color: white;
 }
-.form-bg button{
-    background-color:white;
+button{
+    text-align: center;
+    margin-left: 50%;
+    background-color: white;
+    padding: 10px;
+    width: 100px;
+    border: 2px solid white;
+    margin-bottom: 2%;
+
 }
-.social-networks{
-    justify-content:space-between;
-}
+
 .footer{
     margin-top: 2%;
     text-align: center;
@@ -78,4 +83,5 @@ input[type=text],input[type=email]{
     padding-top: 2%;
     line-height: 1px;
     padding-bottom: 2%;
+    font-size: small;
 }
