@@ -8,5 +8,12 @@ $(document).ready(function(){
       $("#image3,#paragraph3").click(function(){
         $("#image3,#paragraph3").toggle();
       });
+
+})
+$(document).ready(function(){
+    $(".work1 image").mouseover(function(){
+        console.log("Lorraine");
+        $("#text-overlay").fadeIn(fast);
+    });
 })
 
