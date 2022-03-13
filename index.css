@@ -1,5 +1,7 @@
 
-
+h2{
+    font-weight: bold;
+}
 .firstSection{
     background-image: url("./assets/backgrounds/h_img.jpg");
     background-repeat:no-repeat;
@@ -46,3 +48,20 @@
     height: 100%;
     margin-bottom: 40px;
 }
+.contact-us{
+    background-image: url('./assets/backgrounds/c_image.jpg');
+    background-color: transparent;
+    color: white;
+}
+::placeholder { 
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  .social{
+      align-items: center;
+      margin-left: 3%;
+  }
+  .social p{
+      
+      text-align: center;
+  }
