@@ -6,6 +6,7 @@ h2{
     background-image: url("./assets/backgrounds/h_img.jpg");
     background-repeat:no-repeat;
     background-size: cover;
+    background-position: center;
     padding-top: 210px;
     padding-bottom: 50px;
     text-align: center;
@@ -57,11 +58,12 @@ h2{
     color: white;
     opacity: 1; /* Firefox */
   }
-  .social{
-      align-items: center;
-      margin-left: 3%;
-  }
-  .social p{
-      
-      text-align: center;
-  }
+  .footer{
+    margin-top: 2%;
+    text-align: center;
+}
+#copyright{
+    padding-top: 2%;
+    line-height: 1px;
+    padding-bottom: 2%;
+}
