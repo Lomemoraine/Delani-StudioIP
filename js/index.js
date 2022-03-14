@@ -28,4 +28,18 @@ elements.forEach(function(element){
 })
 
 }); 
+//jquery function for contact us
+$(document).ready(function(){
+  $("#submit button").click(function(e){
+    e.preventDefault();
+      let name =  $("input#name").val();
+      let email =  $("input#email").val();
+      let message = $("#textMessage").val();
+      if(name===null){
+          alert("Enter your name");}
+        else if((email=="")||(email==null)||(!validMail(email))){
+            alert("Please enter a valid email")
+      }
+  })
+})
 
