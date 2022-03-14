@@ -55,5 +55,11 @@ $(document).ready(function(){
               }
                
   })
+  const clearInputs = ()=>{
+    $("input#name").val()="";
+    $("input#email").val()="";
+    $("#textMessage").val()="";
+    
+}
 })
 
