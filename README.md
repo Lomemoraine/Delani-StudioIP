@@ -9,8 +9,7 @@
 * This web application is imaginary delani studio landing page that uses jquery to toggle between items and hover boxes on top of other images
 ### Behavior Driven Development
 * Recreate the landing page
-* User Entries 
-   ###### * Input name and email and message through a form after going through the page.
+* User Entries - Input name and email and message through a form after going through the page.
 * Output  - User gets to interact with the page and finally get a pop up message thanking them for sharing feedback if they   do .
 
 ### The live link
