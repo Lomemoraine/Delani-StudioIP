@@ -68,7 +68,7 @@ input[type=text],input[type=email]{
 .form-control::placeholder{
     color: white;
 }
-#textMessage::placeholder{
+#ce-MMERGE6::placeholder{
     color: white;
 }
 button{
@@ -80,6 +80,7 @@ button{
     width: 100px;
     border: 2px solid white;
     margin-bottom: 2%;
+    margin-top: 2%;
 
 }
 

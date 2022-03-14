@@ -29,38 +29,38 @@ elements.forEach(function(element){
 
 }); 
 //jquery function for contact us
-$(document).ready(function(){
-  $("button#submitt").click(function(e){
-    e.preventDefault();
-      let name =  $("input#name").val();
-      let email =  $("input#email").val();
-      let message = $("#textMessage").val();
-      if(name===null){
-          alert("Enter your name");
-        }
-      else if((email=="")||(email==null)||(!validMail(email))){
-            alert("Enter a valid email");
-          }
-      else if((message=="")||(message==null)){
-              alert("Please share your thoughts")
-            }
-      else{
+// $(document).ready(function(){
+//   $("button#submitt").click(function(e){
+//     e.preventDefault();
+//       let name =  $("input#name").val();
+//       let email =  $("input#email").val();
+//       let message = $("#textMessage").val();
+//       if(name===null){
+//           alert("Enter your name");
+//         }
+//       else if((email=="")||(email==null)||(!validMail(email))){
+//             alert("Enter a valid email");
+//           }
+//       else if((message=="")||(message==null)){
+//               alert("Please share your thoughts")
+//             }
+//       else{
               
-            alert(name + " we have received your message. Thank you for reaching out to us.");
-            }
-            //javascript function to validate email using regex.
-      function validMail($email) {
-                var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
-                return emailReg.test($email);
-              }
+//             alert(name + " we have received your message. Thank you for reaching out to us.");
+//             }
+//             //javascript function to validate email using regex.
+//       function validMail($email) {
+//                 var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+//                 return emailReg.test($email);
+//               }
                
-  })
+//   })
   
-})
-const clearInputs = ()=>{
-  $("input#name").val()="";
-  $("input#email").val()="";
-  $("#textMessage").val()="";
+// })
+// const clearInputs = ()=>{
+//   $("input#name").val()="";
+//   $("input#email").val()="";
+//   $("#textMessage").val()="";
   
-}
+// }
 
